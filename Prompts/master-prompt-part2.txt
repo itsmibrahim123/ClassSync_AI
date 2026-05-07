@@ -1,0 +1,157 @@
+[MASTER PROMPT – PART 2/4]
+
+You must strictly follow all requirements and features of ClassSync AI as defined below. These are not optional. All future steps, designs, code, and architecture must align with these requirements.
+
+------------------------------------------------------------
+2. SYSTEM REQUIREMENTS YOU MUST FOLLOW
+------------------------------------------------------------
+
+You must treat the following as the official functional and non-functional requirements:
+
+------------------------------------------------------------
+A. DATASET MODULE REQUIREMENTS
+------------------------------------------------------------
+- Accept CSV/XLSX uploads for: Courses, Teachers, Rooms, Sections.
+- Validate file structure.
+- Detect missing fields, duplicates, invalid formatting.
+- Provide AI-assisted correction suggestions.
+- Store validated files in S3-compatible cloud storage.
+- Maintain dataset status and version history.
+
+------------------------------------------------------------
+B. CONSTRAINT SYSTEM REQUIREMENTS
+------------------------------------------------------------
+You must support 3 categories:
+1. Hard Constraints (never violated)
+2. Soft Constraints (scored/weighted)
+3. Optional Constraints (toggleable)
+
+Mandatory hard constraints:
+- No teacher overlap.
+- No room overlap.
+- No section overlap.
+- Duration must fit subdivided timeslots.
+- Timeslot validity system.
+
+Soft constraints include:
+- Reduce early morning classes.
+- Reduce late evening classes.
+- Minimize teacher gaps.
+- Compact student schedules.
+- Room type preferences.
+- Teacher time preferences.
+
+Optional constraints:
+- Room capacity check.
+- Avoid scheduling after certain hours.
+- Group labs.
+- Avoid buildings.
+- Avoid schedule fragmentation.
+
+Must support timeslot subdivision into 60/90/120 minutes.
+
+------------------------------------------------------------
+C. SCHEDULER / OPTIMIZATION REQUIREMENTS
+------------------------------------------------------------
+The scheduling engine must:
+- Generate a timetable without violating hard constraints.
+- Use scoring functions for soft constraints.
+- Apply optional constraints only when enabled.
+- Process 200+ courses, 80 teachers, 60 rooms.
+- Run within 60 seconds.
+- Produce conflict reports.
+- Be modular and replaceable.
+
+------------------------------------------------------------
+D. EXPORT REQUIREMENTS
+------------------------------------------------------------
+System must export:
+- XLSX
+- CSV
+- PDF
+- PNG (visual timetable)
+- JSON
+- ZIP bundles
+
+Views required:
+- By Section
+- By Teacher
+- By Room
+
+------------------------------------------------------------
+E. AI AGENT REQUIREMENTS
+------------------------------------------------------------
+Primary LLM: GPT-4.1 / GPT-4.1-mini  
+Secondary: Gemini 2.0 Flash/Pro
+
+Agent capabilities:
+- Interpret natural language.
+- Modify constraints but ask for confirmation.
+- Detect dataset issues.
+- Run what-if scenarios.
+- Explain scheduling decisions.
+- Convert text → structured tool calls.
+- Never hallucinate schedule results (must call backend tools).
+
+Required AI Tools:
+- validate_data
+- fix_dataset_issues
+- update_constraint
+- reset_constraints
+- run_scheduler
+- simulate_scenario
+- explain_slot
+- summarize_timetable
+
+------------------------------------------------------------
+F. AUTHENTICATION + MULTI-TENANCY REQUIREMENTS
+------------------------------------------------------------
+- Email + password login.
+- JWT-based authentication.
+- Institution-level data isolation via institution_id.
+- Roles: Admin, Coordinator, Viewer.
+- Subscription model: Free Trial + Monthly + Annual.
+
+------------------------------------------------------------
+G. PERFORMANCE REQUIREMENTS
+------------------------------------------------------------
+- Timetable generation ≤ 60 seconds.
+- API responses for non-scheduling tasks < 300ms.
+- AI responses < 5 seconds.
+- UI load time < 2 seconds.
+
+------------------------------------------------------------
+H. SECURITY REQUIREMENTS
+------------------------------------------------------------
+- HTTPS only.
+- Password hashing (bcrypt/Argon2).
+- Input validation on all endpoints.
+- Obfuscate core scheduling logic.
+
+------------------------------------------------------------
+I. DEPLOYMENT REQUIREMENTS
+------------------------------------------------------------
+- Backend: FastAPI + Python
+- Frontend: React (preferred) or HTML templates
+- Database: PostgreSQL
+- Storage: S3-compatible
+- LLM: Cloud API only
+- Architecture must support horizontal scaling (Docker friendly)
+- Must follow 12-factor principles.
+
+------------------------------------------------------------
+J. DEVELOPMENT RULES (YOU MUST FOLLOW)
+------------------------------------------------------------
+- Keep modules separate: classsync_core, classsync_api, classsync_agent.
+- Do not put everything in one file.
+- Always specify file paths when writing code.
+- Always explain the purpose BEFORE giving code.
+- Always provide clean, organized directory structures.
+- Always confirm assumptions before implementing big components.
+- Provide step-by-step guidance, no overwhelming dumps.
+- Ask grouped clarification questions only when needed.
+
+------------------------------------------------------------
+END OF PART 2/4
+------------------------------------------------------------
+Do NOT respond yet. Wait for Part 3 and 4.

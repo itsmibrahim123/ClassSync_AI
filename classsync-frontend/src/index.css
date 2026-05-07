@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Clean Modern Design Tokens - Teal Theme */
+
+    /* Base */
+    --background: 0 0% 100%;            /* #ffffff */
+    --foreground: 220 13% 18%;          /* #252a31 */
+
+    /* Surfaces */
+    --card: 0 0% 100%;                  /* #ffffff */
+    --card-foreground: 220 13% 18%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 13% 18%;
+
+    /* Brand / Actions - Teal */
+    --primary: 160 84% 39%;             /* #10b981 (Emerald) */
+    --primary-foreground: 0 0% 100%;    /* white */
+
+    /* Secondary */
+    --secondary: 220 13% 95%;           /* #f1f3f5 */
+    --secondary-foreground: 220 13% 18%;
+
+    /* Muted UI */
+    --muted: 220 13% 95%;               /* #f1f3f5 */
+    --muted-foreground: 220 9% 46%;     /* #6b7280 */
+
+    /* Accent */
+    --accent: 220 13% 91%;              /* #e5e7eb */
+    --accent-foreground: 220 13% 18%;
+
+    /* Destructive */
+    --destructive: 0 84% 60%;           /* #ef4444 */
+    --destructive-foreground: 0 0% 100%;
+
+    /* Success */
+    --success: 142 71% 45%;             /* #22c55e */
+    --success-foreground: 0 0% 100%;
+
+    /* Warning */
+    --warning: 38 92% 50%;              /* #f59e0b */
+    --warning-foreground: 0 0% 100%;
+
+    /* Borders / Inputs / Focus Ring */
+    --border: 220 13% 91%;              /* #e5e7eb */
+    --input: 0 0% 100%;                 /* white background */
+    --ring: 160 84% 39%;                /* Teal focus ring */
+
+    --radius: 0.375rem;                 /* 6px - slightly rounded */
+
+    /* Layout */
+    --nav-height: 48px;
+    --commandbar-height: 44px;
+  }
+
+  .dark {
+    /* Dark Mode */
+    --background: 220 13% 10%;          /* #181b20 */
+    --foreground: 0 0% 98%;             /* #fafafa */
+
+    --card: 220 13% 14%;                /* #22262d */
+    --card-foreground: 0 0% 98%;
+
+    --popover: 220 13% 14%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 160 84% 45%;             /* #34d399 (lighter teal for dark) */
+    --primary-foreground: 220 13% 10%;
+
+    --secondary: 220 13% 18%;           /* #2a2f38 */
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 220 13% 18%;
+    --muted-foreground: 220 9% 60%;     /* #9ca3af */
+
+    --accent: 220 13% 22%;              /* #363c47 */
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 72% 55%;           /* lighter red for dark */
+    --destructive-foreground: 0 0% 100%;
+
+    --success: 142 71% 50%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 38 92% 55%;
+    --warning-foreground: 0 0% 100%;
+
+    --border: 220 13% 22%;              /* #363c47 */
+    --input: 220 13% 18%;
+    --ring: 160 84% 45%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: "Segoe UI Variable", "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  /* M365-style Scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--muted-foreground) / 0.3);
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--muted-foreground) / 0.5);
+  }
+
+  /* Hide numeric input arrows */
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+  /* M365 Focus styles */
+  *:focus-visible {
+    @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-background;
+  }
+}

@@ -1,0 +1,9 @@
+1. Navigate to your project directory (if not already there):
+cd "D:\BNU\SM4\Artificial Intelligence\ClassSync AI Project\ClassSyncAI"
+
+2. Make sure you're in the correct virtual environment (if you're using one):
+.\venv\Scripts\activate
+
+3. Then run this script: 
+python enhanced_run_optimizer.py
+python generate_visual_timetables.py

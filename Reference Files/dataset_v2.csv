@@ -1,0 +1,87 @@
+Course Name,Hours per week,Program,Section,Instructor,Type
+Advanced Algorithms,3,BSCS,A,Dr. Aisha Khan,Theory
+Advanced Algorithms,3,BSCS,B,Dr. Bilal Ahmed,Theory
+Data Structures Lab,3,BSCS,A,Ms. Sara Ali,Lab
+Data Structures Lab,3,BSCS,B,Mr. Omar Hassan,Lab
+Introduction to AI,3,BSCS,A,Dr. Aisha Khan,Theory
+Introduction to AI,3,BSCS,B,Dr. John Doe,Theory
+Calculus I,3,BSMath,A,Prof. Emily White,Theory
+Calculus I,3,BSMath,B,Prof. Mark Green,Theory
+Physics II Lab,3,BSPhysics,A,Dr. Jane Brown,Lab
+Physics II Lab,3,BSPhysics,B,Mr. David Black,Lab
+Digital Logic Design,2,BSEE,A,Dr. Aisha Khan,Theory
+Digital Logic Design,2,BSEE,B,Dr. John Doe,Theory
+Operating Systems,3,BSCS,A,Ms. Sara Ali,Theory
+Operating Systems,3,BSCS,B,Mr. Omar Hassan,Theory
+Linear Algebra,3,BSMath,A,Prof. Emily White,Theory
+Linear Algebra,3,BSMath,B,Prof. Mark Green,Theory
+Web Development,3,BSSE,A,Mr. Alex Tan,Theory
+Web Development,3,BSSE,B,Mr. Alex Tan,Theory
+Human Computer Interaction,3,BSSE,A,Dr. Jane Brown,Theory
+Human Computer Interaction,3,BSSE,B,Mr. David Black,Theory
+Biology Lab I,3,BSBio,A,Dr. Mary King,Lab
+Biology Lab I,3,BSBio,B,Dr. Mary King,Lab
+Discrete Mathematics,3,BSMath,A,Prof. Emily White,Theory
+Discrete Mathematics,3,BSMath,B,Prof. Mark Green,Theory
+Software Engineering,3,BSSE,A,Mr. Alex Tan,Theory
+Software Engineering,3,BSSE,B,Mr. Alex Tan,Theory
+Chemistry I Lab,3,BSChem,A,Dr. Bob Blue,Lab
+Chemistry I Lab,3,BSChem,B,Dr. Bob Blue,Lab
+Probability and Statistics,3,BSMath,A,Prof. Emily White,Theory
+Probability and Statistics,3,BSMath,B,Prof. Mark Green,Theory
+Advanced Programming,3,BSCS,A,Dr. Aisha Khan,Theory
+Advanced Programming,3,BSCS,B,Dr. Bilal Ahmed,Theory
+Graphics Design,3,BSGD,A,Ms. Olivia Green,Theory
+Graphics Design,3,BSGD,B,Ms. Olivia Green,Theory
+Database Systems,3,BSCS,A,Ms. Sara Ali,Theory
+Database Systems,3,BSCS,B,Mr. Omar Hassan,Theory
+Networks,3,BSCS,A,Dr. Aisha Khan,Theory
+Networks,3,BSCS,B,Dr. Bilal Ahmed,Theory
+Artificial Intelligence Lab,3,BSCS,A,Dr. John Doe,Lab
+Artificial Intelligence Lab,3,BSCS,B,Dr. John Doe,Lab
+Professional Ethics,2,BSCS,A,Dr. Jane Brown,Theory
+Professional Ethics,2,BSCS,B,Mr. David Black,Theory
+Technical Writing,2,BSEN,A,Prof. Rachel Lee,Theory
+Technical Writing,2,BSEN,B,Prof. Rachel Lee,Theory
+Project Management,3,BSSE,A,Mr. Alex Tan,Theory
+Project Management,3,BSSE,B,Mr. Alex Tan,Theory
+Data Mining,3,BSCS,A,Dr. Bilal Ahmed,Theory
+Data Mining,3,BSCS,B,Dr. Aisha Khan,Theory
+Game Development,3,BSGD,A,Ms. Olivia Green,Theory
+Game Development,3,BSGD,B,Ms. Olivia Green,Theory
+Psychology I,3,BSPsy,A,Dr. Susan Clark,Theory
+Psychology I,3,BSPsy,B,Dr. Susan Clark,Theory
+Sociology I,3,BSSoc,A,Dr. Peter Hall,Theory
+Sociology I,3,BSSoc,B,Dr. Peter Hall,Theory
+Economics I,3,BSEco,A,Dr. Nancy King,Theory
+Economics I,3,BSEco,B,Dr. Nancy King,Theory
+Political Science I,3,BSPSci,A,Dr. Robert White,Theory
+Political Science I,3,BSPSci,B,Dr. Robert White,Theory
+History I,3,BSHis,A,Dr. Laura Green,Theory
+History I,3,BSHis,B,Dr. Laura Green,Theory
+Philosophy I,3,BSPhil,A,Dr. Paul Blue,Theory
+Philosophy I,3,BSPhil,B,Dr. Paul Blue,Theory
+Literature I,3,BSLit,A,Dr. Lisa Brown,Theory
+Literature I,3,BSLit,B,Dr. Lisa Brown,Theory
+Art History I,3,BSArt,A,Dr. Steven King,Theory
+Art History I,3,BSArt,B,Dr. Steven King,Theory
+Music Appreciation,3,BSMus,A,Dr. Betty White,Theory
+Music Appreciation,3,BSMus,B,Dr. Betty White,Theory
+Astronomy I,3,BSAst,A,Dr. Carl Sagan,Theory
+Astronomy I,3,BSAst,B,Dr. Carl Sagan,Theory
+Geology I,3,BSGeo,A,Dr. Helen Green,Theory
+Geology I,3,BSGeo,B,Dr. Helen Green,Theory
+Environmental Science,3,BSEnv,A,Dr. Frank Black,Theory
+Environmental Science,3,BSEnv,B,Dr. Frank Black,Theory
+Communication Skills,2,BSCom,A,Prof. Amy Lee,Theory
+Communication Skills,2,BSCom,B,Prof. Amy Lee,Theory
+Public Speaking,2,BSCom,A,Prof. Amy Lee,Theory
+Public Speaking,2,BSCom,B,Prof. Amy Lee,Theory
+Creative Writing,3,BSEN,A,Prof. Rachel Lee,Theory
+Creative Writing,3,BSEN,B,Prof. Rachel Lee,Theory
+Film Studies,3,BSFilm,A,Dr. Tom Hanks,Theory
+Film Studies,3,BSFilm,B,Dr. Tom Hanks,Theory
+Photography,3,BSArt,A,Ms. Sarah Red,Theory
+Photography,3,BSArt,B,Ms. Sarah Red,Theory
+Yoga and Meditation,1,BSPE,A,Ms. Grace Kelly,Theory
+Yoga and Meditation,1,BSPE,B,Ms. Grace Kelly,Theory

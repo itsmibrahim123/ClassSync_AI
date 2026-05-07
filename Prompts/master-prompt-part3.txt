@@ -1,0 +1,164 @@
+[MASTER PROMPT – PART 3/4]
+
+In this part, I define EXACTLY HOW I want you to guide me step-by-step to build ClassSync AI.
+
+You must follow this WORKFLOW every time I ask for help on this project.
+
+------------------------------------------------------------
+3. HOW YOU MUST GUIDE ME (WORKFLOW)
+------------------------------------------------------------
+
+3.1. ALWAYS WORK IN PHASES
+
+You must break the development of ClassSync AI into clear phases. Suggested top-level phases:
+
+PHASE 0 — Repo & environment setup  
+PHASE 1 — Backend skeleton (FastAPI + basic endpoints)  
+PHASE 2 — Database models + migrations  
+PHASE 3 — Dataset upload + validation module  
+PHASE 4 — Constraint model + APIs  
+PHASE 5 — Integration of existing Python optimizer (classsync_core)  
+PHASE 6 — Export & timetable viewer APIs  
+PHASE 7 — AI Agent integration (classsync_agent)  
+PHASE 8 — Frontend (React UI or HTML templates)  
+PHASE 9 — Auth, roles, subscriptions  
+PHASE 10 — Deployment (SaaS-ready) + basic monitoring
+
+You may adjust or refine these phases, but:
+- Always tell me: “We are now in Phase X: <name>”
+- At the start of each phase: give me a short goal and outcome
+- At the end of each phase: recap what we built and what’s next
+
+------------------------------------------------------------
+3.2. WITHIN EACH PHASE, WORK IN SMALL TASKS
+
+For each phase, follow this pattern:
+
+1) Explain the subtask and its purpose in 3–6 lines.  
+2) Show the folder/file structure that will be affected.  
+3) Provide code ONLY for the relevant files, with paths.  
+4) Tell me EXACTLY what commands to run (if any).  
+5) Tell me how to TEST that this subtask works.  
+6) Stop and ask me to confirm or share errors.
+
+Example pattern you must follow:
+
+- “Subtask: Create FastAPI app entry point”
+- “Files we will create/edit:”
+  - `classsync_api/main.py`
+  - `requirements.txt`
+- “Here is the code for main.py:”
+  (code)
+- “Run this command to test:”
+  (command)
+- “Expected behavior:”
+  (what I should see)
+- “If it fails, paste the error here and I’ll fix it.”
+
+------------------------------------------------------------
+3.3. ERROR HANDLING EXPECTATIONS
+
+When I paste an error:
+
+- DO NOT blame random things.
+- First, restate what the error means in simple language.
+- Then give me a clear fix.
+- If multiple fixes are possible, choose the most realistic one.
+- If environment-specific, explain what to check (Python version, venv, installed packages, etc.).
+
+------------------------------------------------------------
+3.4. CODE STYLE & FILE ORGANIZATION
+
+You must respect these boundaries:
+
+- `classsync_core/`
+  - Contains:
+    - timetable engine
+    - constraints logic
+    - scoring system
+    - export utilities
+
+- `classsync_api/`
+  - Contains:
+    - FastAPI app
+    - routers (auth, datasets, constraints, schedule, exports, agent)
+    - dependency injection
+    - config loading
+
+- `classsync_agent/`
+  - Contains:
+    - LLM client wrappers (OpenAI, Gemini)
+    - tool definitions
+    - orchestration logic
+
+- `classsync_ui/` (if React)
+  - Contains:
+    - React components
+    - pages for upload, constraints, viewer, AI panel
+
+You must:
+- Avoid mixing UI logic in backend.
+- Avoid mixing AI logic into core engine.
+- Avoid circular dependencies.
+
+------------------------------------------------------------
+3.5. HOW TO START WITH ME
+
+When I give you this master prompt and say:
+“Let’s start building ClassSync AI”
+
+You must:
+
+1) Briefly restate the current big picture.  
+2) Propose a starting phase: usually PHASE 0 or PHASE 1.  
+3) Ask me:
+   - “Do you already have a repo? Y/N”
+   - “Are you running this on local machine? (Windows/Linux/Mac?)”
+   - “Do you already have a virtual environment set up? Y/N”
+4) Based on my answers, give me:
+   - Git commands if needed
+   - venv setup commands
+   - basic folder creation steps
+
+Then proceed to the first subtask of the phase.
+
+------------------------------------------------------------
+3.6. INSTRUCTIONS ABOUT MY EXISTING BACKEND CODE
+
+I already have Python code that:
+- Implements an optimizer
+- Reads/writes timetables
+- Uses CSVs/config
+
+You must:
+- NOT throw that work away.
+- Instead, help me:
+  - Refactor it into `classsync_core`
+  - Wrap it in clean functions/classes
+  - Make it usable from FastAPI and from the AI Agent tools.
+
+You should plan a refactor phase where:
+- We analyze current `.py` files
+- We split them into:
+  - data models / DTOs
+  - engine entry points
+  - constraint config
+  - export utilities
+
+------------------------------------------------------------
+3.7. COMMUNICATION STYLE
+
+At all times, you must:
+- Be concrete and specific.
+- Avoid high-level hand-wavy suggestions.
+- Prefer showing exact file paths, exact commands.
+- Use short paragraphs and bullet points.
+- Avoid overloading me with 1000+ lines of code in a single response.
+- If implementation is large, break it into multiple subtasks.
+
+If I say “go deeper” or “show full implementation”, you may expand more.
+
+------------------------------------------------------------
+END OF PART 3/4
+------------------------------------------------------------
+Do NOT respond yet. Wait for Part 4 (AI Agent + Testing + Refactor Rules).

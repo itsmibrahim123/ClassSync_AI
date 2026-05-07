@@ -1,0 +1,105 @@
+Course Name,Hours per week,Program,Section,Instructor,Type
+Advanced Database Management Systems,2,CS4,A,Ms. Talia Noreen,Theory
+Advanced Database Management Systems,2,CS4,B,Ms. Talia Noreen,Theory
+Advanced Database Management Systems,2,CS4,C,Ms. Talia Noreen,Theory
+Advanced Database Management Systems Lab,3,CS4,A,Mr. Ahsan Atiq,Lab
+Advanced Database Management Systems Lab,3,CS4,B,Mr. Ahsan Atiq,Lab
+Advanced Database Management Systems Lab,3,CS4,C,Mr. Ahsan Atiq,Lab
+Applied Physics,2,SE2,A,Mr. Uzair Bashir,Theory
+Applied Physics,2,SE2,B,Mr. Uzair Bashir,Theory
+Applied Physics Lab,3,SE2,A,Ms. Amna Rafiq,Lab
+Applied Physics Lab,3,SE2,B,Ms. Amna Rafiq,Lab
+Artificial Intelligence,2,CS4,A,Dr. Usman Nazir,Theory
+Artificial Intelligence,2,CS4,B,Ms. Noreen Khalid,Theory
+Artificial Intelligence,2,CS4,C,Ms. Noreen Khalid,Theory
+Artificial Intelligence,2,CS6,A,Dr. Usman Nazir,Theory
+Artificial Intelligence,2,CS6,B,Mr. Saad Azhar Saeed,Theory
+Artificial Intelligence Lab,3,CS4,A,Mr. Osama Tariq,Lab
+Artificial Intelligence Lab,3,CS4,B,Mr. Osama Tariq,Lab
+Artificial Intelligence Lab,3,CS4,C,Ms. Noreen Khalid,Lab
+Artificial Intelligence Lab,3,CS6,A,Mr. Osama Tariq,Lab
+Artificial Intelligence Lab,3,CS6,B,Mr. Osama Tariq,Lab
+Business Computing,3,MBC2,-,Ms. Sheeza Batool,Theory
+Business Computing Lab,3,MBC2,-,Ms. Talia Noreen,Lab
+Business Process Engineering,3,SE8,-,SMS Faculty,Theory
+Computer Networks,2,CS6,A+B,Mr. Nabeel Ahsan,Theory
+Computer Networks,2,MBC4,-,Mr. Muhammad Ali,Theory
+Computer Networks Lab,3,CS6,B,Mr. Shazil Ali,Lab
+Computer Networks Lab,3,CS6,A,Mr. Shazil Ali,Lab
+Computer Organization & Assembly Language,2,CS4,A,Ms. Nimra Abbas,Theory
+Computer Organization & Assembly Language,2,CS4,B,Ms. Nimra Abbas,Theory
+Computer Organization & Assembly Language,2,CS4,C,Ms. Nimra Abbas,Theory
+Computer Organization & Assembly Language Lab,3,CS4,B,Ms. Ayesha Seher,Lab
+Computer Organization & Assembly Language Lab,3,CS4,C,Ms. Ayesha Seher,Lab
+Computer Organization & Assembly Language Lab,3,CS4,A,Ms. Nimra Abbas,Lab
+Data Structures & Algorithms,3,CS4,A,Ms. Huda Sarfraz,Theory
+Data Structures & Algorithms,3,CS4,B,Ms. Hamna Anwar,Theory
+Data Structures & Algorithms,3,CS4,C,Mr. Muhammad Ali,Theory
+Data Structures & Algorithms Lab,3,CS4,A,Ms. Hamna Anwar,Lab
+Data Structures & Algorithms Lab,3,CS4,B,Ms. Hamna Anwar,Lab
+Data Structures & Algorithms Lab,3,CS4,C,Mr. Muhammad Ali,Lab
+Database Management Systems,3,MBC4,-,Ms. Shazia Rizwan,Theory
+Database Management Systems Lab,3,MBC4,-,Mr. Shazil Ali,Lab
+Digital Logic Design,2,CS2,A,Dr. Shafaat Ahmed Bazaz,Theory
+Digital Logic Design,2,CS2,B,Mr. Uzair Bashir,Theory
+Digital Logic Design,2,CS2,C,Ms. Arooma Amir,Theory
+Digital Logic Design,2,CS2,D,Ms. Arooma Amir,Theory
+Digital Logic Design Lab,3,CS2,A,Ms. Amna Rafiq,Lab
+Digital Logic Design Lab,3,CS2,B,Ms. Amna Rafiq,Lab
+Digital Logic Design Lab,3,CS2,C,Mr. Uzair Bashir,Lab
+Digital Logic Design Lab,3,CS2,D,Mr. Uzair Bashir,Lab
+Event Driven Programming,3,MBC2,-,Ms. Sheeza Batool,Theory
+Event Driven Programming Lab,3,MBC2,-,Mr. Shazil Ali,Lab
+Expository Writing,3,MBC2,A,Ms. Fatima Bilal,Theory
+Formal Methods in Software Engineering,3,SE8,-,Dr. Natash Ali,Theory
+Graph Theory,3,CS8,-,Mr. Ali Haider,Theory
+Ideology & Constitution of Pakistan,2,CS2,A,Mr. Inam ul Haq,Theory
+Ideology & Constitution of Pakistan,2,CS2,B,Mr. M Shafi,Theory
+Ideology & Constitution of Pakistan,2,CS2,C,Mr. Syed Adeel Ijaz,Theory
+Immersive Media,3,CS+SE8,A,SMC Jou.,Theory
+Intro to CyberSecurity (Elective),3,CS6,-,Mr. Nabeel Ahsan,Theory
+Linear Algebra,3,CS4,A,Mr. Farhan Ali,Theory
+Linear Algebra,3,CS4,B,Mr. Farhan Ali,Theory
+Linear Algebra,3,CS4,C,Mr. Farhan Ali,Theory
+Management Information Systems,3,MBC4,-,Dr. Natash Ali,Theory
+Math II,3,CS+SE2,A (Med),Ms. Ujala Aftab,Theory
+Math II,3,CS+SE2,B (Med),Ms. Ujala Aftab,Theory
+Media Entrepreneurship,3,SE8,-,SMC Jou.,Theory
+Micro Economics,3,MBC2,-,Ms. Fatima Malik,Theory
+Multivariable Calculus,3,CS2,A,Dr. Zawar Hussain VF,Theory
+Multivariable Calculus,3,CS2,B,Dr. Zawar Hussain VF,Theory
+Multivariable Calculus,3,CS2,C,Mr. Farhan Ali,Theory
+Multivariable Calculus,3,CS2,D,Mr. Ali Haider,Theory
+Multivariable Calculus,3,SE2,E,Mr. Ali Haider,Theory
+Multivariable Calculus,3,SE2,F,Mr. Ali Haider,Theory
+Object Oriented Programming,3,CS2,A,Mr. Nouman Ali,Theory
+Object Oriented Programming,3,CS2,B,Mr. Nouman Ali,Theory
+Object Oriented Programming,3,CS2,C,Mr. Asim Irshad,Theory
+Object Oriented Programming,3,CS2,D,Mr. Asim Irshad,Theory
+Object Oriented Programming,3,SE2,E,Mr. Nabeel Ahsan,Theory
+Object Oriented Programming,3,SE2,F,Mr. Ameer Hamza,Theory
+Object Oriented Programming Lab,3,CS2,A,Ms. Rameen,Lab
+Object Oriented Programming Lab,3,CS2,B,Ms. Rameen,Lab
+Object Oriented Programming Lab,3,CS2,C,Ms. Rameen,Lab
+Object Oriented Programming Lab,3,CS2,D,Mr. Asim Irshad,Lab
+Object Oriented Programming Lab,3,SE2,E,Mr. Ameer Hamza,Lab
+Object Oriented Programming Lab,3,SE2,F,Mr. Ameer Hamza,Lab
+Operations Management,3,MBC4,A,Dr. Naeem,Theory
+Organizational Behavior,3,MBC4,A,Dr. Shah Ali Murtaza,Theory
+Probability & Statistics,3,CS2,A,Ms. Amna Humayun,Theory
+Probability & Statistics,3,CS2,B,Ms. Amna Humayun,Theory
+Probability & Statistics,3,CS2,C,Dr. Aamir Majeed Chaudhary,Theory
+Probability & Statistics,3,CS2,D,Dr. Aamir Majeed Chaudhary,Theory
+Probability & Statistics,3,SE2,E,Mr. Hamza Sarfraz,Theory
+Probability & Statistics,3,SE2,F,Mr. Hamza Sarfraz,Theory
+Probability for Data Science,3,MBC2,A,Ms. Amna Humayun,Theory
+Professional Practices,3,CS6,A,Dr. Natash Ali,Theory
+Programming Fundamentals-Lab Repeat,3,CS2,A,Ms. Shazia Rizwan,Lab
+Programming Fundamentals-Lab Repeat,3,CS2,B,Mr. Asim Irshad,Lab
+Programming Fundamentals-Repeat,3,CS2,A,Ms. Shazia Rizwan,Theory
+Programming Fundamentals-Repeat,3,CS2,B,Mr. Asim Irshad,Theory
+Programming for 2D & Web 3D Apps,3,CS6,A,Mr. Nouman Ali,Lab
+Research Methods for IT,3,CS&SE8,A,Dr. Usman Nazir,Theory
+Software Re Engineering,3,SE8,A,Ms. Ayesha Seher,Theory
+Theory of Programming Languages,3,CS6,A,Ms. Huda Sarfraz,Theory
+Theory of Programming Languages,3,CS8,B,Ms. Huda Sarfraz,Theory
